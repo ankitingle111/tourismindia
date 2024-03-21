@@ -1,0 +1,206 @@
+
+
+  * {
+    text-decoration: none;
+    
+  }
+  
+  
+  header {
+   
+   height: 400px;
+   width: 1475px;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center; 
+      background-size: 100% 100%;
+    background-image: url(new.jpg);
+    background-repeat: no-repeat;
+    animation-name: myani;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+
+@keyframes myani {
+    0% {
+        background-image: url(new.jpg);
+    }
+    50% {
+        background-image: url(new2.jpg);
+    }
+    100% {
+        background-image: url(new3.jpg);
+    }
+}
+  a{
+    margin-right: 100px;
+    color: aqua;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    align-items: center;
+    }
+  a:hover{
+    color: rgb(118, 131, 131);
+  
+  }
+  h1 {
+    margin-top: 20px;
+    font-family: 'Segoe Script', sans-serif;
+    font-size: 36px;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  
+  .search {
+    display: flex;
+  }
+  .search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  .search button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .search button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  .slider {
+   padding-top: 10px;
+   padding-bottom: 10px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 1499px;
+    
+  }
+  
+  
+  footer {
+      height: 400px;
+      width: 1475px;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center; 
+      background-size: 100% 100%;
+      justify-content: space-between;
+    
+  }
+  p{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+  }
+  
+  
+  .box1,
+  .box2,
+  .box3 {
+    padding: 25px;
+    border: ridge;
+    border-radius: 15px;
+    text-align: center;
+   
+    background-color: black;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    border-color: black;
+    background-size: 100% 100%;
+    font-size: 20px;
+  }
+  .box1:hover,
+  .box2:hover,
+  .box3:hover {
+    transform: scale(1.1);
+    color: aqua;
+    border-color: white;
+  }
+  
+  
+  @keyframes myani {
+    0% {
+      background-image: url("bungalows-maldives-uhd-4k-wallpaper-1.jpg");
+    }
+    35% {
+      background-image: url("wp7658910.jpg");
+    }
+    70% {
+      background-image: url("1_Em8QfHCvTcLtQIOEdyGkOQ.png");
+    }
+  }
+  
+  
+ 
+ 
+@media only screen and (max-width: 768px) and (max-height:400px) {
+  header {
+    height: auto;
+  }
+
+  nav ul li {
+    margin-right: 10px; 
+  }
+
+  .search input[type="text"] {
+    width: 70%; 
+  }
+
+  .slider {
+    height: auto; 
+    flex-direction: column; 
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 90%; 
+    
+  }
+
+  footer {
+    height: auto;
+    
+  }
+}
