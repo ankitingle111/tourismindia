@@ -1,18 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-}
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-h1 {
-    margin-top: 0;
-}
-.container {
-    padding: 20px;
-}
+    *{
+          background-color: dimgrey;
+        }
+        h1{
+          color: red;
+          font-style: oblique;
+          text-align: center;
+          background-color: bisque;
+          }
+          p{
+            font-style: italic;
+            font-weight: lighter;
+          }
