@@ -1,5 +1,6 @@
 * {
   text-decoration: none;
+ 
   
   
 }
@@ -33,10 +34,10 @@ table {
 }
 
 a {
-  /* margin-right: 20px;  */
-  color: aqua;
+  margin-right: 20px; 
+  color: black;
   text-align: center;
-  background-color: black;
+  background-color: gray;
   border-radius: 10px;
   padding-left: 25px;
   padding-right: 25px;
@@ -45,7 +46,7 @@ a {
 }
 
 a:hover {
-  color: rgb(118, 131, 131);
+  color:aqua;
 }
 
 h1 {
@@ -106,14 +107,14 @@ nav ul li a {
 
 .slider {
   
-  padding-right: 30px;
-  padding-left: 30px;
+
   background-color: lightblue;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: auto;
+  width: auto; 
+ 
  
 }
 
@@ -132,6 +133,8 @@ p {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .box1,
@@ -143,21 +146,19 @@ p {
 .box7,
 .box8,
 .box9
-{
-  padding: 25px;
-  border: ridge;
+{ 
+  padding: 20px;
   width: auto;
-  border-radius: px;
+  border-radius: 20px;
   text-align: center;
-  box-shadow: gray;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Adjust values as needed */
   color: white;
   transition: transform 0.3s ease-in-out;
   border-color: black;
- 
   font-size: 20px;
-  
   justify-content: space-between;
-}
+}  
+   
 
 .box1:hover,
 .box2:hover,
@@ -193,12 +194,12 @@ p {
   header {
     display: flex;
     font-display: inherit;
-    width: 100%;
+    width: 103%;
     height: 300px;
   }
   table{
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
     
   }
   nav {
@@ -213,6 +214,7 @@ p {
   .slider {
    
     display: flex;
+    width: 108%;
    
    
   }
@@ -225,20 +227,9 @@ p {
   .box7,
   .box8,
   .box9 {
-    width: auto;
+    /* width: ; */
     height: auto;
-    /* width: 100%; */
-   
-    border: white;
-    border-radius: 0px;
-    text-align: center;
   
-    background-color: darkgrey;
-    color: white;
-    
-    border-color: wheat;
-    background-size: 100% 100%;
-    font-size: 20px;
     font-style: oblique;
     
     justify-content: space-between;
@@ -248,7 +239,7 @@ p {
     margin-left: 20px;
    
     margin-right: 20px;
-    color: aqua;
+   
     text-align: start;
     background-color: inherit;
     border-radius: 0;
@@ -257,7 +248,7 @@ p {
   }
   footer {
     align-items: start;
-    width: 100%;
+    width: 103%;
   }
 }
 
